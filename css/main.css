@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	font-family: 'Exo', sans-serif;
+}
+
+/* TOP NEON GREEN BORDER*/
+div.head{
+	width: 90%;
+	margin: 0 auto;
+	height: 12px;
+	background-color: #85EB2F;
+}
+
+
+
+
+/*SURVEY INTRODUCTION*/
+div.surveyIntro{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+div.surveyIntro > p {
+	text-align: center;
+
+}
+
+div.surveyIntro > button{
+	border: 2px solid #85EB2F;
+	color: #09BA12;
+	background-color: transparent;
+	padding: 8px 12px;
+	font-weight: 600;
+	margin-top: 40px;
+	position: relative;
+	transform: translateX(-50%);
+	left:50%;
+}
+
+div.surveyIntro > button:hover{
+	background-color:#09BA12;
+	color: white;
+}
+
+
+
+/*CSS FOR TABLE */
+
+table{
+	margin: 40px auto;
+
+}
+
+table, tr ,td{
+	border: 1px solid black;
+}
+
+tr{
+	height:50px;
+}
+
+th{
+	background-color: rgba(85,85,85, 0.3);
+}
+th#choice{
+	padding: 0 5px;
+}
+
+th#tellUs{
+	padding-left:10px;
+}
+
+td{
+	padding-bottom: 90px;
+	padding-top:10px;
+	padding-left: 10px;
+}
+
+td#question9{
+	border-bottom: 1px solid transparent;
+	border-right: 1px solid transparent;
+	padding-bottom:0;
+}
+
+td#noButtons{
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid transparent;
+	padding: 0;
+}
+
+td#textArea{
+	border-right: 1px solid transparent;
+	padding-bottom:20px;
+	padding-left:90px;
+}
+
+
+td#empty{
+	border-left: 1px solid transparent;
+	padding:0;
+}
+
+
+
+/*MARGIN FOR CIRCLE BUTTONS*/
+
+div.radioInputs{
+	text-align: center;
+
+}
+
+div.radioInputs > input{
+	margin: 0 8px;
+}
+
+textarea#txtArea{
+	width: 800px;
+	height: 90px;
+}
+
+/*	BUTTON TO SUBMIT SURVEY */
+div#buttn{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+button#surveySub{
+	width: 20%;
+	height: 40px;
+	background-color: transparent;
+	border: 2px solid #85EB2F;
+	color: #09BA12;
+	font-size: 20px;
+	font-weight: 600px;
+	margin: 0 auto;
+}
